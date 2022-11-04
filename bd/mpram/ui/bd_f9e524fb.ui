@@ -1,0 +1,27 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.975",
+   "Default View_TopLeft":"-504,1",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r4  2019-12-20 bk=1.5203 VDI=41 GEI=36 GUI=JA:10.0 TLS
+#  -string -flagsOSRD
+preplace port exp -pg 1 -lvl 0 -x 0 -y 40 -defaultsOSRD
+preplace port s_0 -pg 1 -lvl 0 -x 0 -y 90 -defaultsOSRD
+preplace port s_1 -pg 1 -lvl 0 -x 0 -y 280 -defaultsOSRD
+preplace port clock -pg 1 -lvl 0 -x 0 -y 310 -defaultsOSRD
+preplace port reset_n -pg 1 -lvl 0 -x 0 -y 340 -defaultsOSRD
+preplace inst axi_warpper -pg 1 -lvl 2 -x 510 -y 370 -defaultsOSRD
+preplace inst block_ram -pg 1 -lvl 3 -x 780 -y 70 -defaultsOSRD
+preplace inst axi_interconnect -pg 1 -lvl 1 -x 210 -y 350 -defaultsOSRD
+preplace netloc ACLK_0_1 1 0 2 30 500 350
+preplace netloc ARESETN_0_1 1 0 2 20 510 360
+preplace netloc axi_interconnect_0_M00_AXI 1 1 1 N 350
+preplace netloc S01_AXI_0_1 1 0 1 N 280
+preplace netloc axi_bram_ctrl_0_BRAM_PORTA 1 2 1 640 60n
+preplace netloc S00_AXI_0_1 1 0 1 30 90n
+preplace netloc BRAM_PORTB_0_1 1 0 3 NJ 40 350 80 NJ
+levelinfo -pg 1 0 210 510 780 920
+pagesize -pg 1 -db -bbox -sgen -100 0 920 640
+"
+}
+0
