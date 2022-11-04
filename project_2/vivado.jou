@@ -1,0 +1,27 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Tue Aug 23 23:44:43 2022
+# Process ID: 36200
+# Current directory: E:/Debug_V2.3/ZYNQ_CALC/project_2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent39152 E:\Debug_V2.3\ZYNQ_CALC\project_2\project_2.xpr
+# Log file: E:/Debug_V2.3/ZYNQ_CALC/project_2/vivado.log
+# Journal file: E:/Debug_V2.3/ZYNQ_CALC/project_2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/Debug_V2.3/ZYNQ_CALC/project_2/project_2.xpr
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+launch_runs impl_1 -jobs 8
+wait_on_run impl_1
+open_run impl_1
+report_utilization -name utilization_1

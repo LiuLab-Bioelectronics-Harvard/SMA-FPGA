@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Thu Jun  2 21:38:08 2022
+# Process ID: 12720
+# Current directory: E:/zynq_test/project_2/project_2.runs/fp_multiply_synth_1
+# Command line: vivado.exe -log fp_multiply.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source fp_multiply.tcl
+# Log file: E:/zynq_test/project_2/project_2.runs/fp_multiply_synth_1/fp_multiply.vds
+# Journal file: E:/zynq_test/project_2/project_2.runs/fp_multiply_synth_1\vivado.jou
+#-----------------------------------------------------------
+source fp_multiply.tcl -notrace

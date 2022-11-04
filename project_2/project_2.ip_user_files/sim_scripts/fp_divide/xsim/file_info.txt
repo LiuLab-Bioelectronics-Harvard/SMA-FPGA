@@ -1,0 +1,2 @@
+fp_divide.vhd,vhdl,xil_defaultlib,../../../../project_2.srcs/sources_1/ip/fp_divide/sim/fp_divide.vhd,
+glbl.v,Verilog,xil_defaultlib,glbl.v

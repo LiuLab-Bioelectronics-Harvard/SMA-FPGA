@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="mpram_blk_mem_gen_0_0_synth_1" LaunchDir="E:/zynq_test/project_2/project_2.runs/mpram_blk_mem_gen_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="mpram_axi_bram_ctrl_0_0_synth_1" LaunchDir="E:/zynq_test/project_2/project_2.runs/mpram_axi_bram_ctrl_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="mpram_xbar_0_synth_1" LaunchDir="E:/zynq_test/project_2/project_2.runs/mpram_xbar_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="mpram_s00_data_fifo_0_synth_1" LaunchDir="E:/zynq_test/project_2/project_2.runs/mpram_s00_data_fifo_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="mpram_s01_data_fifo_0_synth_1" LaunchDir="E:/zynq_test/project_2/project_2.runs/mpram_s01_data_fifo_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="mpram_s00_data_fifo_0_synth_1"/>
+	</Run>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+	</Parameters>
+</Runs>
+

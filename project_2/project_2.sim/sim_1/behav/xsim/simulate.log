@@ -1,0 +1,54 @@
+Vivado Simulator 2017.4
+Time resolution is 1 ps
+Block Memory Generator module tb.calc.ram.block_ram.inst.native_mem_mapped_module.blk_mem_gen_v8_4_1_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Note: 
+******************************************************
+  renorm_and_round_logic.vhd :
+    FULL_MANT_RND1_DEL is using fast_input
+    which will be faster, but create more FFs.
+******************************************************
+Time: 0 ps  Iteration: 0
+Note: 
+******************************************************
+  renorm_and_round_logic.vhd :
+    FULL_MANT_RND1_DEL is using fast_input
+    which will be faster, but create more FFs.
+******************************************************
+Time: 0 ps  Iteration: 0
+Info: [XPM_MEMORY 20-1] MEMORY_PRIMITIVE (0) instructs Vivado Synthesis to choose the memory primitive type. Depending on their values, other XPM_MEMORY parameters may preclude the choice of certain memory primitive types. Review XPM_MEMORY documentation and parameter values to understand any limitations, or set MEMORY_PRIMITIVE to a different value. tb.calc.rom.xpm_memory_base_inst.config_drc
+Time: 1 ps  Iteration: 0  Process: /tb/calc/rom/xpm_memory_base_inst/Initial270_555  File: /wrk/2017.4/nightly/2017_12_15_2086221/prep/rdi/vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv
+Info: [XPM_MEMORY 20-2] MEMORY_INIT_FILE (none), MEMORY_INIT_PARAM together specify no memory initialization. Initial memory contents will be all 0's. tb.calc.loader.inst_fifo.xpm_fifo_sync.xpm_fifo_base_inst.gen_sdpram.xpm_memory_base_inst.config_drc  0
+Time: 1 ps  Iteration: 0  Process: /tb/calc/loader/inst_fifo/xpm_fifo_sync/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/Initial270_577  File: /wrk/2017.4/nightly/2017_12_15_2086221/prep/rdi/vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv
+Info: [XPM_MEMORY 20-2] MEMORY_INIT_FILE (none), MEMORY_INIT_PARAM together specify no memory initialization. Initial memory contents will be all 0's. tb.calc.alu.fifo_1.xpm_fifo_sync.xpm_fifo_base_inst.gen_sdpram.xpm_memory_base_inst.config_drc  0
+Time: 1 ps  Iteration: 0  Process: /tb/calc/alu/fifo_1/xpm_fifo_sync/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/Initial270_641  File: /wrk/2017.4/nightly/2017_12_15_2086221/prep/rdi/vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv
+Info: [XPM_MEMORY 20-2] MEMORY_INIT_FILE (none), MEMORY_INIT_PARAM together specify no memory initialization. Initial memory contents will be all 0's. tb.calc.alu.fifo_2.xpm_fifo_sync.xpm_fifo_base_inst.gen_sdpram.xpm_memory_base_inst.config_drc  0
+Time: 1 ps  Iteration: 0  Process: /tb/calc/alu/fifo_2/xpm_fifo_sync/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/Initial270_577  File: /wrk/2017.4/nightly/2017_12_15_2086221/prep/rdi/vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv
+Info: [XPM_MEMORY 20-2] MEMORY_INIT_FILE (none), MEMORY_INIT_PARAM together specify no memory initialization. Initial memory contents will be all 0's. tb.calc.alu.fifo_3.xpm_fifo_sync.xpm_fifo_base_inst.gen_sdpram.xpm_memory_base_inst.config_drc  0
+Time: 1 ps  Iteration: 0  Process: /tb/calc/alu/fifo_3/xpm_fifo_sync/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/Initial270_577  File: /wrk/2017.4/nightly/2017_12_15_2086221/prep/rdi/vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv
+blk_mem_gen_v8_4_1 collision detected at time: 540000, Instance: tb.calc.ram.block_ram.inst.native_mem_mapped_module.blk_mem_gen_v8_4_1_inst, A read address: 0, B write address: 0
+Block Memory Generator module tb.calc.ram.block_ram.inst.native_mem_mapped_module.blk_mem_gen_v8_4_1_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Note: 
+******************************************************
+  renorm_and_round_logic.vhd :
+    FULL_MANT_RND1_DEL is using fast_input
+    which will be faster, but create more FFs.
+******************************************************
+Time: 0 ps  Iteration: 0
+Note: 
+******************************************************
+  renorm_and_round_logic.vhd :
+    FULL_MANT_RND1_DEL is using fast_input
+    which will be faster, but create more FFs.
+******************************************************
+Time: 0 ps  Iteration: 0
+Info: [XPM_MEMORY 20-1] MEMORY_PRIMITIVE (0) instructs Vivado Synthesis to choose the memory primitive type. Depending on their values, other XPM_MEMORY parameters may preclude the choice of certain memory primitive types. Review XPM_MEMORY documentation and parameter values to understand any limitations, or set MEMORY_PRIMITIVE to a different value. tb.calc.rom.xpm_memory_base_inst.config_drc
+Time: 1 ps  Iteration: 0  Process: /tb/calc/rom/xpm_memory_base_inst/Initial270_555  File: /wrk/2017.4/nightly/2017_12_15_2086221/prep/rdi/vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv
+Info: [XPM_MEMORY 20-2] MEMORY_INIT_FILE (none), MEMORY_INIT_PARAM together specify no memory initialization. Initial memory contents will be all 0's. tb.calc.loader.inst_fifo.xpm_fifo_sync.xpm_fifo_base_inst.gen_sdpram.xpm_memory_base_inst.config_drc  0
+Time: 1 ps  Iteration: 0  Process: /tb/calc/loader/inst_fifo/xpm_fifo_sync/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/Initial270_577  File: /wrk/2017.4/nightly/2017_12_15_2086221/prep/rdi/vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv
+Info: [XPM_MEMORY 20-2] MEMORY_INIT_FILE (none), MEMORY_INIT_PARAM together specify no memory initialization. Initial memory contents will be all 0's. tb.calc.alu.fifo_1.xpm_fifo_sync.xpm_fifo_base_inst.gen_sdpram.xpm_memory_base_inst.config_drc  0
+Time: 1 ps  Iteration: 0  Process: /tb/calc/alu/fifo_1/xpm_fifo_sync/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/Initial270_641  File: /wrk/2017.4/nightly/2017_12_15_2086221/prep/rdi/vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv
+Info: [XPM_MEMORY 20-2] MEMORY_INIT_FILE (none), MEMORY_INIT_PARAM together specify no memory initialization. Initial memory contents will be all 0's. tb.calc.alu.fifo_2.xpm_fifo_sync.xpm_fifo_base_inst.gen_sdpram.xpm_memory_base_inst.config_drc  0
+Time: 1 ps  Iteration: 0  Process: /tb/calc/alu/fifo_2/xpm_fifo_sync/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/Initial270_577  File: /wrk/2017.4/nightly/2017_12_15_2086221/prep/rdi/vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv
+Info: [XPM_MEMORY 20-2] MEMORY_INIT_FILE (none), MEMORY_INIT_PARAM together specify no memory initialization. Initial memory contents will be all 0's. tb.calc.alu.fifo_3.xpm_fifo_sync.xpm_fifo_base_inst.gen_sdpram.xpm_memory_base_inst.config_drc  0
+Time: 1 ps  Iteration: 0  Process: /tb/calc/alu/fifo_3/xpm_fifo_sync/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/Initial270_577  File: /wrk/2017.4/nightly/2017_12_15_2086221/prep/rdi/vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv
+blk_mem_gen_v8_4_1 collision detected at time: 540000, Instance: tb.calc.ram.block_ram.inst.native_mem_mapped_module.blk_mem_gen_v8_4_1_inst, A read address: 0, B write address: 0

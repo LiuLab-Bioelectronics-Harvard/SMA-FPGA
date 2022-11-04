@@ -1,0 +1,4 @@
+vhdl xil_defaultlib  \
+"../../../bd/mpram/ip/mpram_axi_warpper_0/sim/mpram_axi_warpper_0.vhd" \
+
+nosort
